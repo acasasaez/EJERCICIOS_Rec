@@ -4,6 +4,8 @@ from imp import create_dynamic
 from signal import siginterrupt
 from pkg_resources import NullProvider
 
+from Dicotomia import AUSENTE
+
 
 Algoritmo alfanumerico (ca: CADENA): CADENA
     #La copia de "ca" sin los caracteres no alfanuméricos.
@@ -77,3 +79,19 @@ constante
     MAYUSCULA_ACENTUADA: CADENA
     MAYUSCULA: CADENA 
 
+realizacion
+    si 
+        ca=CADENA_VACIA 
+    entonces
+        Resultado <- CADENA_VACIA 
+    si no si 
+        situacion(primero(ca), MAYUSCULA_ACENTUADA) ≠ AUSENTE
+    entonces 
+        Resultado <- cadena(item(MAYUSCULA, situacion(primero(ca)))
+        ⊕
+        sin_acento(fin(ca)))
+    si no 
+        Resultado <- primero(ca)⊕sin_acento(fin(ca))
+    fin si 
+
+    
