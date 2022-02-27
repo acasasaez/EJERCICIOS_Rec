@@ -24,9 +24,9 @@ Ejercicio 2: COnsiste en elaborar los algoritmos que nos permitiesen identificar
 Ejercicio 3: Teniendo en cuenta una serie de n fichas de colores distintos, se nos pide elabrorar un algoritmo que ordene la mismas en 3 series, de tal manera que que queden agrupadas aquellas que tengan el mismo color. 
 
 Los respectivos pseudocódigos de mi trabajo son:
-1. Ejercicio Dicotomía:
+```1. Ejercicio Dicotomía:
 
-```Algoritmo dicotomia:
+Algoritmo dicotomia:
     #Indice de "t" en tabla o AUSENTE
 entrada 
     tabla[T-> COMPARABLE] #Objetivo de búsuqeda
@@ -98,7 +98,7 @@ fin dicotomia_recursiva
 
 2. Ejercicio Palíndromos
 
- ```Algoritmo alfanumerico (ca: CADENA): CADENA
+ Algoritmo alfanumerico (ca: CADENA): CADENA
     #La copia de "ca" sin los caracteres no alfanuméricos.
 
 precondicion
@@ -229,7 +229,7 @@ fin palindromo
 
 
 3. Ejercicio Dijkstra
-```Algoritmo permutar(serie_fichas: CADENA; i,j,k,n:ENTERO)
+Algoritmo permutar(serie_fichas: CADENA; i,j,k,n:ENTERO)
     #Mover la ficha a la situación "j+1" en la serie de su color
 precondicion
     indice_valido(serie_fichas, 1)
