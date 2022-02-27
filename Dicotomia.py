@@ -23,3 +23,8 @@ precondicion
 realizacion
     Resultado <- dicotomia_recursiva(tabla,t)
 
+postcondicion 
+    Resultado = AUSENTE => ((∀k ∈ Z) (indice_valido(tabla,k)=> tabla[k] ≠t))
+    Resultado ≠ AUSENTE => ((indice_valido(tabla,Resultado)=> tabla[Resultado] =t))
+
+fin dicotomia
