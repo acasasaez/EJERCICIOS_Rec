@@ -1,5 +1,6 @@
 #Ejercicio Palíndromos 
 #Primera Parte: Filtración
+from imp import create_dynamic
 from signal import siginterrupt
 from pkg_resources import NullProvider
 
@@ -35,3 +36,33 @@ postcondicion
         es_una_cifra(item(Resultado,k)))
         )
 fin alfanumerico 
+
+
+
+
+
+#Parte 2: Sustitución de mayúsculas
+Algoritmo en_mayuscula(ca:CADENA):CADENA 
+        #La cadena es igual a "ca" en mayúsculas.
+
+precondición
+    ca ≠ NULO
+
+realización
+    si 
+        ca = CADENA_VACIA
+    entoces 
+        Resultado <- CADENA_VACIA 
+
+    si no 
+        #concatenar el primer caracter transformado si procede con la transformación del resto de "ca"
+        Resultado <- cadena(en_mayuscula(primero(ca))) ⊕ en_mayuscula(fin(ca))
+    fin si 
+
+postcondicion
+    ca = CADENA_VACIA => Resultado = CADENA_VACIA 
+    ca ≠ CADENA_VACIA => Resultado= cadena(en_mayuscula(primero(ca))) ⊕ en_mayuscula(fin(ca))
+
+fin en_mayuscula
+
+#Parte 3: Sustituir los caracteres acentuados
