@@ -20,3 +20,6 @@ precondicion
     #"t" está en el orden de los componentes de "tabla" 
     tabla[indice_min(tabla)]<= t <= tabla[indice_max(tabla)]
 
+realizacion
+    Resultado <- dicotomia_recursiva(tabla,t)
+
