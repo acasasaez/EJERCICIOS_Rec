@@ -101,3 +101,9 @@ postcondicion
 fin sin_acento
 
 #Parte 4: Determinar si es un Palíndromo
+Algoritmo Palindromo:
+    #Determinar si "frase" es un palindromo
+precondicion
+    frase ≠ NULO 
+variable 
+    ca:CADENA 
