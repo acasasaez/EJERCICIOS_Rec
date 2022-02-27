@@ -4,7 +4,7 @@ La tarea de esta semana consta de 3 ejercicios en los que debíamos emplear func
 Ejercicio 1: Debíamos elaborar los algoritmos que nos permitiesen realizar una búsqueda por dicotomía
 
 ![ejercicio dicotomia](https://user-images.githubusercontent.com/91721826/155897052-c953e5c4-8cbe-4e20-a491-2b7d9224d6c6.jpg)
-![Jupi](https://user-images.githubusercontent.com/91721826/155897055-0d8d7a55-6acc-46f4-9f1f-047371c398a0.jpg)
+
 
 
 Ejercicio 2: COnsiste en elaborar los algoritmos que nos permitiesen identificar palíndromos. Para ello, tuvimos que realizar funciones que nos permitiesen:
@@ -24,7 +24,8 @@ Ejercicio 2: COnsiste en elaborar los algoritmos que nos permitiesen identificar
 Ejercicio 3: Teniendo en cuenta una serie de n fichas de colores distintos, se nos pide elabrorar un algoritmo que ordene la mismas en 3 series, de tal manera que que queden agrupadas aquellas que tengan el mismo color. 
 
 Los respectivos pseudocódigos de mi trabajo son:
-```1. Ejercicio Dicotomía:
+```
+1. Ejercicio Dicotomía:
 
 Algoritmo dicotomia:
     #Indice de "t" en tabla o AUSENTE
