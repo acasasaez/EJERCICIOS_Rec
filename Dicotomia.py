@@ -39,13 +39,13 @@ entrada
 Resultado: ENTERO #Número de celda que contiene "t" o AUSENTE
 
 variable 
-i: ENTERO 
-j:·ENTERO 
-m:ENTERO 
+    i: ENTERO 
+    j:·ENTERO 
+    m:ENTERO 
  
 inicializacion
-i <- indice_min(tabla)
-j <- indice_max(tabla)
+    i <- indice_min(tabla)
+    j <- indice_max(tabla)
 
 
 
