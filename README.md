@@ -14,6 +14,6 @@ Ejercicio 2: COnsiste en elaborar los algoritmos que nos permitiesen identificar
       
       4. comprobar que la cadena resultante  fuese igual a la inversa de la misma.
       
-   https://github.com/acasasaez/EJERCICIOS_Rec/blob/main/palindromo.jpg
+  
       
 Ejercicio 3: Teniendo en cuenta una serie de n fichas de colores distintos, se nos pide elabrorar un algoritmo que ordene la mismas en 3 series, de tal manera que que queden agrupadas aquellas que tengan el mismo color. 
