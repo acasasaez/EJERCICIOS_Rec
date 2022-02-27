@@ -25,7 +25,7 @@ Ejercicio 3: Teniendo en cuenta una serie de n fichas de colores distintos, se n
 
 Los respectivos pseudocódigos de mi trabajo son:
 1. Ejercicio Dicotomía:
-Algoritmo dicotomia:
+´´´Algoritmo dicotomia:
     #Indice de "t" en tabla o AUSENTE
 entrada 
     tabla[T-> COMPARABLE] #Objetivo de búsuqeda
