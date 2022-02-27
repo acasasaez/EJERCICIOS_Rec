@@ -1,5 +1,5 @@
 # EJERCICIOS_Rec
-La tarea de esta semana consta de 3 ejercicios en los que debíamos emplear funciones recursivas. Para presentarlos he creado el repositorio de github cuyo enlace adjunto: 
+La tarea de esta semana consta de 3 ejercicios en los que debíamos emplear funciones recursivas. Para presentarlos he creado el repositorio de github cuyo enlace adjunto: https://github.com/acasasaez/EJERCICIOS_Rec.git 
 
 Ejercicio 1: Debíamos elaborar los algoritmos que nos permitiesen realizar una búsqueda por dicotomía
 
