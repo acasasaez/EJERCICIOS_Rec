@@ -66,3 +66,14 @@ postcondicion
 fin en_mayuscula
 
 #Parte 3: Sustituir los caracteres acentuados
+Algoritmo sin_acentos:
+    #"ca" sin acentuar
+
+precondicion
+    ca ≠ NULO 
+    en_mayuscula(ca) = ca 
+
+constante
+    MAYUSCULA_ACENTUADA: CADENA
+    MAYUSCULA: CADENA 
+
