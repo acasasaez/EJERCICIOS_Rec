@@ -1,5 +1,6 @@
 #Primera parte: Definimos la fundicón dicotomía que se encarga de  tabla[indice_min(tabla)]<= t <= tabla[indice_max(tabla)]
-from re import T
+from re import M, T
+from signal import siginterrupt
 from tkinter import _EntryValidateCommand, Variable
 from xml.sax.handler import EntityResolver
 
@@ -46,6 +47,31 @@ variable
 inicializacion
     i <- indice_min(tabla)
     j <- indice_max(tabla)
+
+realizacion
+    si 
+        i>j 
+    entonces 
+        Resultado <- AUSENTE 
+    si no si 
+        m <- (i+j)/2
+        si 
+            tabla[m]= t 
+        entonces
+            resultado <- m 
+        si no si 
+            tabla [m] < t 
+        entonces 
+            # t no pertenece tabla[i...m-1] => tabla[m+1]<=t<=tabla[j]
+            Resultado <- dictomia_recursiva
+        si no 
+            # no pertenece a tabla[m+1...j]=> tabla[i]<= t <= tabla[m-1]
+            Resultado <- dicotomia_recursiva 
+                                (sub_tabla(tabla,i,m-1),t)
+        fin si
+    fin si 
+fin dicotomia_recursiva 
+
 
 
 
