@@ -38,6 +38,10 @@ entrada
     t: T  #lo que buscamos 
 Resultado: ENTERO #Número de celda que contiene "t" o AUSENTE
 
+variable 
+i: ENTERO 
+j:·ENTERO 
+m:ENTERO 
  
 
 
