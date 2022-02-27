@@ -101,9 +101,30 @@ postcondicion
 fin sin_acento
 
 #Parte 4: Determinar si es un Palíndromo
-Algoritmo Palindromo:
+Algoritmo palindromo:
     #Determinar si "frase" es un palindromo
 precondicion
     frase ≠ NULO 
+
 variable 
     ca:CADENA 
+
+realizacion:
+    ca <-alfanumerico(ca)
+        #filtrar "frase" para que solo se conserven los caracteres alfanuméricos
+    ca <- en_mayuscula(ca)
+        #transformar todos los caracteres alfabéticos en mayúscula
+    ca <- sin_acento 
+        #eliminar los acentos de los caracteres alfabéticos
+    si 
+        ca = inverso(ca) 
+    entonces 
+        escribir "Es un palindromo"
+    si no si 
+        ca ≠ inverso(ca)
+    entonces 
+        escribir "No es un palindromo"
+    fin si 
+postcondicion 
+
+fin palindromo
