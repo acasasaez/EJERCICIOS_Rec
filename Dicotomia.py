@@ -1,6 +1,7 @@
-#Primera parte: Definimos la fundicón dicotomía
+#Primera parte: Definimos la fundicón dicotomía que se encarga de  tabla[indice_min(tabla)]<= t <= tabla[indice_max(tabla)]
 from re import T
-from tkinter import _EntryValidateCommand
+from tkinter import _EntryValidateCommand, Variable
+from xml.sax.handler import EntityResolver
 
 from pkg_resources import NullProvider
 
@@ -28,3 +29,17 @@ postcondicion
     Resultado ≠ AUSENTE => ((indice_valido(tabla,Resultado)=> tabla[Resultado] =t))
 
 fin dicotomia
+
+#Parte 2: Definimos la función dicotomia_recursiva que realizará una búsqueda efectiva si en la función dicotomia Resultado ≠ AUSENTE
+Algoritmo dicotomia_recursiva:
+    #Indice de "t" en tabla o AUSENTE
+entrada
+    tabla:TABLA[T -> COMPARABLE] #Objetivo de búsqueda
+    t: T  #lo que buscamos 
+Resultado: ENTERO #Número de celda que contiene "t" o AUSENTE
+
+ 
+
+
+
+
