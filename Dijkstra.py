@@ -1,4 +1,5 @@
 #Parte 1 Función permutar:
+from msvcrt import kbhit
 from pkg_resources import NullProvider
 
 
@@ -58,3 +59,9 @@ realizacion
             fin si
         fin hacer 
     fin si
+
+postcondicion
+    antiguo(i)=i; antiguo(j) = j; antiguo(k)=k 
+    serie_fichas ="RR...RVV...VBB..B"
+
+fin permutar 
