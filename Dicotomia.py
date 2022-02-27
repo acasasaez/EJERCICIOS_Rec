@@ -43,6 +43,11 @@ i: ENTERO
 j:·ENTERO 
 m:ENTERO 
  
+inicializacion
+i <- indice_min(tabla)
+j <- indice_max(tabla)
+
+
 
 
 
