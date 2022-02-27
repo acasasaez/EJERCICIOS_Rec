@@ -91,8 +91,14 @@ realizacion
     fin si 
 fin dicotomia_recursiva 
 
+
+
+
+
+
 2. Ejercicio Palíndromos
- Algoritmo alfanumerico (ca: CADENA): CADENA
+
+ ```Algoritmo alfanumerico (ca: CADENA): CADENA
     #La copia de "ca" sin los caracteres no alfanuméricos.
 
 precondicion
@@ -126,8 +132,6 @@ fin alfanumerico
 
 
 
-
-
 #Parte 2: Sustitución de mayúsculas
 Algoritmo en_mayuscula(ca:CADENA):CADENA 
         #La cadena es igual a "ca" en mayúsculas.
@@ -151,6 +155,8 @@ postcondicion
     ca ≠ CADENA_VACIA => Resultado= cadena(en_mayuscula(primero(ca))) ⊕ en_mayuscula(fin(ca))
 
 fin en_mayuscula
+
+
 
 #Parte 3: Sustituir los caracteres acentuados
 Algoritmo sin_acento:
@@ -185,6 +191,8 @@ postcondicion
 
 fin sin_acento
 
+
+
 #Parte 4: Determinar si es un Palíndromo
 Algoritmo palindromo:
     #Determinar si "frase" es un palindromo
@@ -214,8 +222,14 @@ postcondicion
 
 fin palindromo
 
+
+
+
+
+
+
 3. Ejercicio Dijkstra
-Algoritmo permutar(serie_fichas: CADENA; i,j,k,n:ENTERO)
+```Algoritmo permutar(serie_fichas: CADENA; i,j,k,n:ENTERO)
     #Mover la ficha a la situación "j+1" en la serie de su color
 precondicion
     indice_valido(serie_fichas, 1)
