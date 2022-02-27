@@ -68,7 +68,7 @@ postcondicion
 fin en_mayuscula
 
 #Parte 3: Sustituir los caracteres acentuados
-Algoritmo sin_acentos:
+Algoritmo sin_acento:
     #"ca" sin acentuar
 
 precondicion
@@ -94,4 +94,10 @@ realizacion
         Resultado <- primero(ca)⊕sin_acento(fin(ca))
     fin si 
 
-    
+postcondicion
+    ca= CADENA_VACIA => Resultado = CADENA_VACIA
+    ca ≠ CADENA_VACIA => Resultado = ("ca" sin acentuar)
+
+fin sin_acento
+
+#Parte 4: Determinar si es un Palíndromo
